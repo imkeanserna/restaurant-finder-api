@@ -24,7 +24,7 @@ app.use("/", (req: Request, res: Response) => {
     message: "Restaurant Finder Api",
     version: "1.0.0",
     endpoint: {
-      search: "/api/excute?message=<your_message>&code=<access_code>",
+      search: "/api/execute?message=<your_message>&code=<access_code>",
       health: "/health",
     },
     example:
