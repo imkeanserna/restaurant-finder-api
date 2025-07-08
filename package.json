@@ -1,0 +1,25 @@
+{
+  "name": "restaurant-finder-api",
+  "description": "LLM-Driven Restaurant Finder API that allows users to enter a free‑form message describing what they want to do",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "prebuild": "pnpm run clean"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.10",
+    "axios": "^1.10.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.1.0",
+    "express": "^5.1.0",
+    "groq-sdk": "^0.26.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.3"
+  }
+}
